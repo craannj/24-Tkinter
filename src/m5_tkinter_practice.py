@@ -50,8 +50,8 @@ def main():
     entry_box = ttk.Entry(frame1)
     entry_box.grid()
 
-    enrty_button = ttk.Button(frame1, text='Print Entry')
-    enrty_button['command'] = (lambda: print_contents(entry_box))
+    entry_button = ttk.Button(frame1, text='Print Entry')
+    entry_button['command'] = (lambda: print_contents(entry_box))
     # -------------------------------------------------------------------------
     # TODO: 7.
     #    -- Put a second Entry on the Frame.
